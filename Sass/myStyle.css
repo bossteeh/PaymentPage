@@ -1,0 +1,335 @@
+body {
+  font-family: murecho;
+}
+
+.first-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+  width: 800px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-left: 600px;
+  padding-top: 30px;
+}
+
+.first-section ul {
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.first-section .top-image img {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+}
+
+.second-section {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.second-section .atmcard {
+  padding-left: 30px;
+  border: 1px solid white;
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#df5c3b), to(#a230e4));
+  background-image: linear-gradient(to right, #df5c3b, #a230e4);
+}
+
+.second-section .atm-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-section .atm-section img {
+  width: 90px;
+}
+
+.second-section .atm-section .details {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.second-section .atm-section .details .textinput {
+  border: 1px solid #cacaca;
+  width: 270px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: whitesmoke;
+  padding-left: 20px;
+}
+
+.second-section .atm-section .ccno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-section .atm-section button {
+  color: white;
+  background-color: #4d4dd4;
+  width: 600px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.second-section .atm-section button:hover {
+  color: white;
+  background-color: #a230e4;
+  width: 600px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.second-section .atm-section .ccnos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-section .payment-info {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-section .payment-info p {
+  color: gray;
+}
+
+.second-section .visa img,
+.second-section .discover img,
+.second-section .paypal img {
+  width: 50px;
+}
+
+.second-section .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 300px;
+}
+
+.second-section .third-section {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.second-section .third-section .estimate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 900px;
+}
+
+.second-section .third-section .estimate ul {
+  font-size: 19px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.second-section li span {
+  color: #bebebe;
+  font-weight: bold;
+}
+
+.second-section .final-section {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-section .final-section .btn {
+  color: white;
+  background-color: #4d4dd4;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.second-section .final-section .total-price {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.atmcard {
+  color: white;
+}
+
+.radio-add p {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section3 {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section3 .code {
+  color: grey;
+}
+
+.section4 {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section4 button {
+  color: white;
+  background-color: #4d4dd4;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.section4 button:hover {
+  color: white;
+  background-color: #a230e4;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.atmcard .card-details p {
+  text-shadow: 2px 2px 6px #ffffff;
+  color: white;
+  font-size: 25px;
+}
+
+.atmcard .cardnchip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -20px;
+}
+
+.atmcard .cardnchip .chip {
+  margin-left: -140px;
+}
+
+.atmcard .exp-cvv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 600px;
+  margin: -60px;
+  padding-top: 40px;
+}
+
+.atmcard .exp-cvv .exp-date {
+  font-size: small;
+}
+
+.atmcard .exp-cvv .exp-date span {
+  color: #cfcfcf;
+}
+
+.atmcard .exp-cvv .exp-date .mastercard img {
+  width: 40px;
+}
+
+.atmcard .exp-cvv .cvv {
+  font-size: small;
+}
+
+.atmcard .exp-cvv .cvv span {
+  color: #cfcfcf;
+}
+
+.atmcard .cardno-icon p {
+  font-size: 20px;
+  width: 500px;
+}
+
+.atmcard .cardno-icon span {
+  color: #cfcfcf;
+  font-size: 25px;
+  margin-top: -20px;
+}
+/*# sourceMappingURL=myStyle.css.map */

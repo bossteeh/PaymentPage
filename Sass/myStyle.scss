@@ -1,0 +1,256 @@
+body {
+  font-family: murecho;
+}
+.first-section {
+  display: flex;
+  text-align: right;
+  width: 800px;
+  justify-content: space-evenly;
+  padding-left: 600px;
+  padding-top: 30px;
+  ul {
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    width: 700px;
+    justify-content: space-evenly;
+  }
+  .top-image img {
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.second-section {
+  padding-left: 60px;
+  padding-right: 60px;
+  .atmcard {
+    padding-left: 30px;
+    border: 1px solid white;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    background-image: linear-gradient(
+      to right,
+      rgb(223, 92, 59),
+      rgb(162, 48, 228)
+    );
+  }
+
+  .atm-section {
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+    img {
+      width: 90px;
+    }
+    .details {
+      justify-content: space-around;
+
+      //   display: grid;
+      .textinput {
+        border: 1px solid rgb(202, 202, 202);
+        width: 270px;
+        height: 50px;
+        border-radius: 2px;
+        background-color: rgb(245, 245, 245);
+        padding-left: 20px;
+      }
+    }
+    .ccno {
+      display: flex;
+      width: 600px;
+      justify-content: space-between;
+    }
+    button {
+      color: white;
+      background-color: rgb(77, 77, 212);
+      width: 600px;
+      height: 50px;
+      border: none;
+      border-radius: 3px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    button:hover {
+      color: white;
+      background-color: rgb(162, 48, 228);
+      width: 600px;
+      height: 50px;
+      border: none;
+      border-radius: 3px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .ccnos {
+      display: flex;
+      width: 600px;
+      justify-content: space-between;
+    }
+  }
+
+  .payment-info {
+    justify-content: space-between;
+    display: flex;
+    width: 1300px;
+    align-items: center;
+    p {
+      color: gray;
+    }
+  }
+  .visa img,
+  .discover img,
+  .paypal img {
+    width: 50px;
+  }
+  .logos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+  }
+
+  .third-section {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    .estimate {
+      display: flex;
+      justify-content: space-between;
+      width: 900px;
+      ul {
+        font-size: 19px;
+        font-weight: 400;
+        list-style: none;
+      }
+    }
+  }
+
+  li span {
+    color: rgb(190, 190, 190);
+    font-weight: bold;
+  }
+
+  .final-section {
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    .btn {
+      color: white;
+      background-color: rgb(77, 77, 212);
+      width: 200px;
+      height: 50px;
+      border: none;
+      border-radius: 3px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .total-price {
+      font-size: 28px;
+      font-weight: 600;
+    }
+  }
+}
+.atmcard {
+  color: white;
+  // div:nth-child(2) {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   width: 900px;
+  //   align-items: center;
+  // }
+  // div:nth-child(3) {
+  //   display: flex;
+  //   justify-content: space-evenly;
+  // }
+}
+.radio-add p {
+  align-items: center;
+  text-align: center;
+}
+.section3 {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+  .code {
+    color: grey;
+  }
+}
+.section4 {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.section4 button {
+  color: white;
+  background-color: rgb(77, 77, 212);
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.section4 button:hover {
+  color: white;
+  background-color: rgb(162, 48, 228);
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.atmcard {
+  .card-details p {
+    text-shadow: 2px 2px 6px #ffffff;
+    color: white;
+    font-size: 25px;
+  }
+  .cardnchip {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: -20px;
+    .chip {
+      margin-left: -140px;
+    }
+  }
+  .exp-cvv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    margin: -60px;
+    padding-top: 40px;
+    .exp-date {
+      font-size: small;
+      span {
+        color: rgb(207, 207, 207);
+      }
+      .mastercard img {
+        width: 40px;
+      }
+    }
+    .cvv {
+      font-size: small;
+      span {
+        color: rgb(207, 207, 207);
+      }
+    }
+  }
+  .cardno-icon p {
+    font-size: 20px;
+    width: 500px;
+  }
+  .cardno-icon span {
+    color: rgb(207, 207, 207);
+    font-size: 25px;
+    margin-top: -20px;
+  }
+}
